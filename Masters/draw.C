@@ -122,13 +122,13 @@ TH1F* hBKG = new TH1F(*h1zajets); hBKG->Add(htta2jets); hBKG->Add(h1Dibos); hBKG
 
 //h1DYJet->SetLineColor(28);h1DYJet->SetFillColor(28);
 //h1zajjQCD->SetLineColor(28);h1zajjQCD->SetFillColor(28);
-h1zajets->SetLineColor(28);h1zajets->SetFillColor(28);
-h1TTJet->SetLineColor(41);h1TTJet->SetFillColor(41);
-h1Dibos->SetLineColor(32);h1Dibos->SetFillColor(32);
-h1STops->SetLineColor(46);h1STops->SetFillColor(46);
+h1zajets->SetLineColor(8);h1zajets->SetFillColor(8);
+h1TTJet->SetLineColor(6);h1TTJet->SetFillColor(6);
+h1Dibos->SetLineColor(4);h1Dibos->SetFillColor(4);
+h1STops->SetLineColor(15);h1STops->SetFillColor(15);
 //h1ZGToL->SetLineColor(38);h1ZGToL->SetFillColor(38);
-hSignal->SetLineColor(3);
-hSignal->SetLineWidth(3);
+hSignal->SetLineColor(2);
+hSignal->SetLineWidth(5);
 
 
 
